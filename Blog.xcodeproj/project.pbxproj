@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0571B7BE270B94FF00BBA299 /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0571B7BD270B94FF00BBA299 /* CreatePost.swift */; };
+		0571B7C0270B9FF100BBA299 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0571B7BF270B9FF100BBA299 /* TextView.swift */; };
 		05A3174C27077B1200C8D157 /* BlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3174B27077B1200C8D157 /* BlogApp.swift */; };
 		05A3174E27077B1200C8D157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3174D27077B1200C8D157 /* ContentView.swift */; };
 		05A3175027077B1400C8D157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A3174F27077B1400C8D157 /* Assets.xcassets */; };
@@ -14,6 +16,12 @@
 		05A3175D27077B1500C8D157 /* BlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3175C27077B1500C8D157 /* BlogTests.swift */; };
 		05A3176727077B1500C8D157 /* BlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3176627077B1500C8D157 /* BlogUITests.swift */; };
 		05A3176927077B1500C8D157 /* BlogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3176827077B1500C8D157 /* BlogUITestsLaunchTests.swift */; };
+		05A3177627077C3B00C8D157 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05A3177527077C3B00C8D157 /* GoogleService-Info.plist */; };
+		05A3177927077D7400C8D157 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 05A3177827077D7400C8D157 /* FirebaseFirestore */; };
+		05A3177B27077D7400C8D157 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 05A3177A27077D7400C8D157 /* FirebaseFirestoreSwift-Beta */; };
+		05A3178027077E3100C8D157 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3177F27077E3100C8D157 /* Home.swift */; };
+		05A3178227077F8800C8D157 /* BlogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3178127077F8800C8D157 /* BlogViewModel.swift */; };
+		05A3178427077FB500C8D157 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3178327077FB500C8D157 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0571B7BD270B94FF00BBA299 /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
+		0571B7BF270B9FF100BBA299 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		05A3174827077B1200C8D157 /* Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A3174B27077B1200C8D157 /* BlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogApp.swift; sourceTree = "<group>"; };
 		05A3174D27077B1200C8D157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,10 @@
 		05A3176227077B1500C8D157 /* BlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A3176627077B1500C8D157 /* BlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogUITests.swift; sourceTree = "<group>"; };
 		05A3176827077B1500C8D157 /* BlogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05A3177527077C3B00C8D157 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		05A3177F27077E3100C8D157 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		05A3178127077F8800C8D157 /* BlogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewModel.swift; sourceTree = "<group>"; };
+		05A3178327077FB500C8D157 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A3177927077D7400C8D157 /* FirebaseFirestore in Frameworks */,
+				05A3177B27077D7400C8D157 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +110,10 @@
 		05A3174A27077B1200C8D157 /* Blog */ = {
 			isa = PBXGroup;
 			children = (
+				05A3177E27077DFF00C8D157 /* Model */,
+				05A3177D27077DF600C8D157 /* ViewModel */,
+				05A3177C27077DED00C8D157 /* View */,
+				05A3177527077C3B00C8D157 /* GoogleService-Info.plist */,
 				05A3174B27077B1200C8D157 /* BlogApp.swift */,
 				05A3174D27077B1200C8D157 /* ContentView.swift */,
 				05A3174F27077B1400C8D157 /* Assets.xcassets */,
@@ -127,6 +147,32 @@
 			path = BlogUITests;
 			sourceTree = "<group>";
 		};
+		05A3177C27077DED00C8D157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05A3177F27077E3100C8D157 /* Home.swift */,
+				0571B7BD270B94FF00BBA299 /* CreatePost.swift */,
+				0571B7BF270B9FF100BBA299 /* TextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05A3177D27077DF600C8D157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05A3178127077F8800C8D157 /* BlogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05A3177E27077DFF00C8D157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05A3178327077FB500C8D157 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +189,10 @@
 			dependencies = (
 			);
 			name = Blog;
+			packageProductDependencies = (
+				05A3177827077D7400C8D157 /* FirebaseFirestore */,
+				05A3177A27077D7400C8D157 /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = Blog;
 			productReference = 05A3174827077B1200C8D157 /* Blog.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 05A3173F27077B1200C8D157;
+			packageReferences = (
+				05A3177727077D7400C8D157 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 05A3174927077B1200C8D157 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +286,7 @@
 			files = (
 				05A3175327077B1400C8D157 /* Preview Assets.xcassets in Resources */,
 				05A3175027077B1400C8D157 /* Assets.xcassets in Resources */,
+				05A3177627077C3B00C8D157 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +312,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A3174E27077B1200C8D157 /* ContentView.swift in Sources */,
+				05A3178027077E3100C8D157 /* Home.swift in Sources */,
+				05A3178227077F8800C8D157 /* BlogViewModel.swift in Sources */,
+				0571B7C0270B9FF100BBA299 /* TextView.swift in Sources */,
+				0571B7BE270B94FF00BBA299 /* CreatePost.swift in Sources */,
 				05A3174C27077B1200C8D157 /* BlogApp.swift in Sources */,
+				05A3178427077FB500C8D157 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +516,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +666,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05A3177727077D7400C8D157 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05A3177827077D7400C8D157 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A3177727077D7400C8D157 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		05A3177A27077D7400C8D157 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A3177727077D7400C8D157 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 05A3174027077B1200C8D157 /* Project object */;
 }
